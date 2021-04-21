@@ -1,0 +1,34 @@
+body {
+  font-size: 16pt;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+#container img {
+  width: 75px;
+  height: 75px;
+}
+
+#container #boss-countdown {
+  text-align: center;
+  color: forestgreen;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#container #boss-container {
+  display: flex;
+}
+
+#container #boss-container .boss-content .boss-name {
+  position: relative;
+  text-align: center;
+  color: forestgreen;
+  font-size: 18px;
+  bottom: 8px;
+}
